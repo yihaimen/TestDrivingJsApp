@@ -1,0 +1,19 @@
+{
+  "name": "testdrivingjsapp",
+  "version": "1.0.0",
+  "description": "JavaScript 测试驱动开发",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yihaimen/TestDrivingJsApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yihaimen/TestDrivingJsApp/issues"
+  },
+  "homepage": "https://github.com/yihaimen/TestDrivingJsApp#readme"
+}
