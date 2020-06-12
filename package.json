@@ -4,7 +4,8 @@
   "description": "JavaScript 测试驱动开发",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://github.com/yihaimen/TestDrivingJsApp#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "istanbul": "^0.4.5",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
   }
 }

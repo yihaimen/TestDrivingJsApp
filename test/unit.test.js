@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const Util = require('../src/tddNode/utils');
+const Util = require('../src/tdd/sample/utils');
 
 describe('util tests', () => {
     let util;
