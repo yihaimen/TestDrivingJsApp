@@ -1,4 +1,4 @@
-module.exports = function (phrase) {
+modules.exports = function (phrase) {
     if (phrase === undefined) {
         throw new Error('Invalid argument')
     }
