@@ -16,7 +16,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       './test/client/**/*.js',
-      './src/tdd/client/**/*.js'
+      './test/location/**/*.js',
+      './src/tdd/client/**/*.js',
+      './src/tdd/location/**/*.js'
     ],
 
 
@@ -28,7 +30,8 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      '**/src/tdd/client/*.js': 'coverage'
+      '**/src/tdd/client/*.js': 'coverage',
+      '**/src/tdd/location/*.js': 'coverage'
     },
 
 
