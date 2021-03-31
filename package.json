@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
+    "test1": "nyc mocha ./test/performance.spec.js",
     "karma": "karma start --reporters clear-screen,dots,coverage",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha"
   },
